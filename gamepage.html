@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tic tak toe</title>
+</head>
+
+<body style="background-color: #2176ae;"
+    class=" h-screen flex flex-col items-center justify-center realtive  text-center">
+    <div class="msg-container text-xl font-bold px-4 py-4 hidden ">
+        <p id="msg" class="bg-white px-3 my-3 rounded-md ">Winner</p>
+        <button id="new-button"
+            class="bg-black text-white px-7 py-4 rounded-lg font-bold transition transform hover:scale-110 ">NEW
+            GAME</button>
+
+
+
+    </div>
+    <div>
+        <button onclick="location.href='index.html'"
+            class=" fixed top-0 right-0 border-2 bg-red-500 hover:bg-green-400 uppercase main h-10 w-16 font-bold m-3 rounded-md ">Back</button>
+    </div>
+    <div style="background-image:url('black-squared-corporative-pattern_1097-11.png') ;"
+        class=" bg-cover flex items-center justify-center container my-10  h-[70%] w-[70%] border-2 ">
+        <div class="  gap-1.5  grid grid-cols-3  h-[45%] w-[30%] lg:w-[20%] ">
+            <button
+                class="box h-16 w-16  border-2 shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black  font-bold text-3xl text-red-500"></button>
+            <button
+                class="box h-16 w-16 border-2 shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black  font-bold text-3xl text-red-500"></button>
+            <button
+                class="box h-16 w-16 border-2  shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black font-bold text-3xl text-red-500"></button>
+            <button
+                class="box h-16 w-16 border-2  shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black font-bold text-3xl text-red-500"></button>
+            <button
+                class="box h-16 w-16 border-2 shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black  font-bold text-3xl text-red-500"></button>
+            <button
+                class="box h-16 w-16 border-2 shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black  font-bold text-3xl text-red-500"></button>
+            <button
+                class="box h-16 w-16 border-2 shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black  font-bold text-3xl text-red-500"></button>
+            <button
+                class="box h-16 w-16 border-2 shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black  font-bold text-3xl text-red-500"></button>
+            <button
+                class="box h-16 w-16 border-2 shadow-2xl rounded-md opacity-90 bg-slate-300 transition transform hover:scale-110 border-black  font-bold text-3xl text-red-500"></button>
+        </div>
+    </div>
+    <button id="reset-button"
+        class="bg-black text-white px-7 py-4 rounded-lg font-bold transition transform hover:scale-110 ">RESET
+        GAME</button>
+
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
